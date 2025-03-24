@@ -2,7 +2,7 @@
 # Regression test for winetricks
 #
 # Copyright (C) 2010-2014 Dan Kegel
-# Copyright (C) 2011-2017 Austin English
+# Copyright (C) 2011-2025 Austin English
 # See also copyright notice in src/winetricks.
 #
 # This software comes with ABSOLUTELY NO WARRANTY.
@@ -201,7 +201,7 @@ w_time()
 }
 
 case "${LANG}" in
-    ""|"C") echo "Some games won't install in the Posix locale; doing 'export LANG=en_US.UTF-8'" ; export LANG=en_US.UTF-8;;
+    ""|"C") echo "Some applications won't install in the Posix locale; doing 'export LANG=en_US.UTF-8'" ; export LANG=en_US.UTF-8;;
 esac
 
 case "${OS}" in
